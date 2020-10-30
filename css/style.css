@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    background-color: #eeeeee;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* Apply margin:auto to an element you want to center align */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+/* Navbar */
+
+#nav{
+    overflow: auto;
+    background-color: #fdfdfd;
+}
+
+#nav h1{
+    float: left;
+    padding-top: 18px;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+}
+
+#nav a{
+    color: #333;
+}
+
+/* To override style applied to tag like above #nav a{}, apply style like below class name appended to tag name, only class name won't work  */
+#nav .container a.active{
+    color: #690cd3;
+    font-weight: 500;
+    background-color: #eeeeee;
+}
+
+#nav ul{
+    float: right;
+    list-style: none;
+    height: 100%;
+}
+
+#nav ul li{
+    float: left;
+}
+
+#nav ul li a{
+    display: block;
+    padding: 20px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+#nav ul li a:hover{
+    background-color: #eeeeee;
+    color: #690cd3;
+}
+
+/* Showcase */
+#showcase{
+    background: url('../img/main2.jpg') no-repeat center -175px/cover;
+    height: 600px;
+    border-bottom: 1px solid #333;
+}
+
+#content{
+    padding-top: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#content h1{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+#content p{
+    padding: 5px;
+    background-color: #ffffff70;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.primary{
+    color: #690cd3;
+    font-weight: 500;
+}
+
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/section.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home-info .info-des{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    color: #000000;
+    background-color: #33333310;
+}
+
+.info-des h2{
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 100px 30px 0 30px;
+}
+
+.info-des p{
+    padding: 30px;
+    padding-top: 10px;
+}
+
+button{
+    display: inline-block;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #690cd3;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#features{
+    border-top: 1px solid #333;
+}
+
+.box{
+    float: left;
+    width: 33.1%;
+    padding: 30px;
+    height: 180px;
+}
+
+.box h2{
+    color: #333;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box p{
+    line-height: 25px;
+}
+
+.line{
+    float: left;
+    border-left: 1px solid #690cd3;
+    min-height: 110px;
+    margin-top: 40px;
+}
+
+.clr{
+    clear: both;
+}
+
+#footer{
+    margin: auto;
+    background-color: #690cd3;
+    min-height: 60px;
+    width: 100%;
+}
+
+#footer p{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+#about{
+    padding-bottom: 30px;
+    overflow: auto;
+}
+
+#about .container{
+    padding: 50px 0;
+    overflow: auto;
+    border-bottom: 1px dotted #333;
+}
+
+.left{
+    float: left;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.left h2{
+    padding-bottom: 20px;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    min-height: 300px;
+    background: url(../img/main.jpg) no-repeat center center/cover;
+    border-radius: 50%;
+}
+
+h2{
+    display: block;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+#testimonials, .container, .box-t{
+    overflow: auto;
+}
+
+.box-t{
+    padding: 30px;
+}
+
+.box-t .img{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.box-t .img div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #690cd3;
+    color: #690cd3;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 60px;
+} 
+
+.box-t .test{
+    padding: 40px 0px;
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+#form-section .form{
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form label, 
+.form input, 
+.form textarea{
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.form input, 
+.form textarea{
+    padding: 8px;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus{
+    outline: 0.5px solid #690cd3;
+}
+
+.form textarea{
+    height: 100px;
+}
+
+.end{
+    position: fixed !important;
+    bottom: 0 !important;
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 280px;
+}
+
+
